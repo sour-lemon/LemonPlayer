@@ -1,0 +1,31 @@
+﻿<Window x:Class="PlayerWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PlayerWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Width" Value="64"/>
+            <Setter Property="Height" Value="36"/>
+            <Setter Property="FontSize" Value="16"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <local:WpfPlayer x:Name="Player" StateChanged="Player_StateChanged"/>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left">
+                <Button Content="Open" Click="Open_Click"/>
+                <Button x:Name="BtnPlayPause" Content="Play" IsEnabled="False" Click="PlayPause_Click"/>
+                <Button Content="Close" Click="Close_Click"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Volume: "/>
+                <Slider x:Name="VolumeSlider" Minimum="0" Maximum="2" Value="1" Width="200" ValueChanged="VolumeSlider_ValueChanged"/>
+                <TextBlock Text="{Binding ElementName=VolumeSlider, Path=Value, StringFormat=0.00}"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

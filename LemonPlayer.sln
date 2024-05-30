@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LemonPlayer", "LemonPlayer\LemonPlayer.csproj", "{855371A1-6821-4E8C-A0C6-0BE150243FF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{CF2D46D8-52E6-4E72-B019-4BAE5DC575B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayerWpf", "samples\PlayerWpf\PlayerWpf.csproj", "{668C88E6-88D4-4F8A-9252-A30DEE7481DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LemonPlayer.Windows", "LemonPlayer.Windows\LemonPlayer.Windows.csproj", "{9631AD27-EE06-48DC-ADD4-55D5E2B58901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerConsole", "samples\PlayerConsole\PlayerConsole.csproj", "{1A93498A-9A06-4499-ADEA-2E92AC4DDE97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{855371A1-6821-4E8C-A0C6-0BE150243FF7}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{855371A1-6821-4E8C-A0C6-0BE150243FF7}.Debug|Any CPU.Build.0 = Debug|x64
+		{855371A1-6821-4E8C-A0C6-0BE150243FF7}.Debug|x64.ActiveCfg = Debug|x64
+		{855371A1-6821-4E8C-A0C6-0BE150243FF7}.Debug|x64.Build.0 = Debug|x64
+		{855371A1-6821-4E8C-A0C6-0BE150243FF7}.Release|Any CPU.ActiveCfg = Release|x64
+		{855371A1-6821-4E8C-A0C6-0BE150243FF7}.Release|Any CPU.Build.0 = Release|x64
+		{855371A1-6821-4E8C-A0C6-0BE150243FF7}.Release|x64.ActiveCfg = Release|x64
+		{855371A1-6821-4E8C-A0C6-0BE150243FF7}.Release|x64.Build.0 = Release|x64
+		{668C88E6-88D4-4F8A-9252-A30DEE7481DD}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{668C88E6-88D4-4F8A-9252-A30DEE7481DD}.Debug|Any CPU.Build.0 = Debug|x64
+		{668C88E6-88D4-4F8A-9252-A30DEE7481DD}.Debug|x64.ActiveCfg = Debug|x64
+		{668C88E6-88D4-4F8A-9252-A30DEE7481DD}.Debug|x64.Build.0 = Debug|x64
+		{668C88E6-88D4-4F8A-9252-A30DEE7481DD}.Release|Any CPU.ActiveCfg = Release|x64
+		{668C88E6-88D4-4F8A-9252-A30DEE7481DD}.Release|Any CPU.Build.0 = Release|x64
+		{668C88E6-88D4-4F8A-9252-A30DEE7481DD}.Release|x64.ActiveCfg = Release|x64
+		{668C88E6-88D4-4F8A-9252-A30DEE7481DD}.Release|x64.Build.0 = Release|x64
+		{9631AD27-EE06-48DC-ADD4-55D5E2B58901}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{9631AD27-EE06-48DC-ADD4-55D5E2B58901}.Debug|Any CPU.Build.0 = Debug|x64
+		{9631AD27-EE06-48DC-ADD4-55D5E2B58901}.Debug|x64.ActiveCfg = Debug|x64
+		{9631AD27-EE06-48DC-ADD4-55D5E2B58901}.Debug|x64.Build.0 = Debug|x64
+		{9631AD27-EE06-48DC-ADD4-55D5E2B58901}.Release|Any CPU.ActiveCfg = Release|x64
+		{9631AD27-EE06-48DC-ADD4-55D5E2B58901}.Release|Any CPU.Build.0 = Release|x64
+		{9631AD27-EE06-48DC-ADD4-55D5E2B58901}.Release|x64.ActiveCfg = Release|x64
+		{1A93498A-9A06-4499-ADEA-2E92AC4DDE97}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{1A93498A-9A06-4499-ADEA-2E92AC4DDE97}.Debug|x64.ActiveCfg = Debug|x64
+		{1A93498A-9A06-4499-ADEA-2E92AC4DDE97}.Debug|x64.Build.0 = Debug|x64
+		{1A93498A-9A06-4499-ADEA-2E92AC4DDE97}.Release|Any CPU.ActiveCfg = Release|x64
+		{1A93498A-9A06-4499-ADEA-2E92AC4DDE97}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{668C88E6-88D4-4F8A-9252-A30DEE7481DD} = {CF2D46D8-52E6-4E72-B019-4BAE5DC575B0}
+		{1A93498A-9A06-4499-ADEA-2E92AC4DDE97} = {CF2D46D8-52E6-4E72-B019-4BAE5DC575B0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A44A8701-6771-4219-BEC7-5F9A2BF99F02}
+	EndGlobalSection
+EndGlobal
